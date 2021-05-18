@@ -1,0 +1,82 @@
+body
+{
+	height: 100%;
+}
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+/*TOPBAR.PHP CSS*/
+nav.navbar.navbar-expand-lg.text-light
+{
+	background-color:#7ac143;
+    margin-left: 250px;
+    width: 100%;
+    transition: margin-left.5s;
+}
+a.navbar-brand 
+{
+    color: white;
+}
+li.nav-item
+{
+    margin-top: 10px;
+    margin-left: 10px;
+}
+span.sidebar_btn
+{
+    cursor:pointer;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+/*END OF TOPBAR.PHP CSS*/
+.sidebar
+{
+    background: #2F323A;
+    padding-top: 100px;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 250px;
+    height: 100%;
+    transition: 0.5s;
+}
+.sidebar span
+{
+    text-align: center;
+}
+.sidebar a
+{
+    color: #fff;
+    display: block;
+    width: 100%;
+    line-height: 60px;
+    padding-left: 25px;
+    box-sizing: border-box;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+.sidebar a:hover
+{
+    background: #19B3D3;
+    cursor: pointer;
+}
+
+.sidebar i
+{
+    padding-right: 20px ; 
+
+}
+
+/* INDEX.PHP CSS */
+.content
+{	
+    transition: margin-left.5s;
+	margin-left: 250px;
+	position: fixed;
+	height: 100%;
+	width: 100%;
+}
+
+a.text-decoration-none
+{
+    font-size: 15px;
+}
